@@ -1,7 +1,7 @@
 import Page from '../page-objects/home-page';
 import { ClientFunction } from 'testcafe';
 fixture `Home Page Tests`
-    .page `http://localhost:8082/`;
+    .page `http://localhost:8083/`;
 
 // Page model
 const page = new Page();
