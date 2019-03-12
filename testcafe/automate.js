@@ -9,7 +9,7 @@ createTestCafe('localhost', 9001)
         return runner
             .src(['./testcafe/tests/home.js'])
             .browsers('chrome:headless')
-            .reporter('junit', 'report.xml')
+            .reporter('xunit', 'report.xml')
             .run();
     })
     .then(failedCount => {
