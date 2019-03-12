@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: HeadlessChrome 72.0.3626 / Windows 10.0.0" tests="1" failures="0" skipped="0" errors="0" time="5.018" timestamp="Tue, 12 Mar 2019 11:32:37 GMT" >
+  <testcase classname="Home Page Tests" name="Assert Title" time="2.353">
+  </testcase>
+</testsuite>
