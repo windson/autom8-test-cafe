@@ -13,6 +13,10 @@ createTestCafe('localhost', 9001)
             .run();
     })
     .then(failedCount => {
-        console.log('Tests failed: ' + failedCount);
+        if(failedCount == 0){
+            console.log('All tests passed successfully!');
+        }else{
+            console.log('Tests failed: ' + failedCount);
+        }
         testcafe.close();
     });
